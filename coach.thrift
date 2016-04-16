@@ -3,7 +3,7 @@ service Coach {
     
     void botInit()
 
-    void newObservation(1:list<double> lastState, 2:list<i16> lastAction, 3:list<double> currentState, 4: double reward)
+    list<i16> newObservation(1:list<double> lastState, 2:list<i16> lastAction, 3:list<double> currentState, 4: double reward)
 
 }
 
